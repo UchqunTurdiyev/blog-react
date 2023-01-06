@@ -1,4 +1,6 @@
-import TopBar from "./topBar/TopBar";
+
+import TopBar from "./component/topBar/TopBar";
+import Write from "./component/write/Write";
 
 
 function App() {
@@ -6,7 +8,7 @@ function App() {
   return (
     <div>
       <TopBar />
-      <h1 className="text-center">Hello World</h1>
+      <Write />
     </div>
   );
 }
