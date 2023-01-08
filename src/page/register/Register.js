@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom"
 
 function Register(props) {
     return (
@@ -13,7 +14,9 @@ function Register(props) {
                 <input className='w-72 py-2 px-1 outline-none rounded-md' type="password" placeholder='Enter your password...'/>
                 <button className='px-10 py-2 bg-orange-700 hover:bg-orange-600 my-2 rounded-md text-white'>Register</button>
             </form>
-                <button className='px-10 py-2 bg-green-700 hover:bg-green-600 my-2 rounded-md text-white absolute right-2 top-16'>Login</button>
+                <Link to="/login" className='px-10 py-2 bg-green-700 hover:bg-green-600 my-2 rounded-md text-white absolute right-2 top-16'>
+                Login
+                </Link>
         </div>
     );
 }
