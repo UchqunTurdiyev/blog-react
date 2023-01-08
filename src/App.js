@@ -1,6 +1,6 @@
 
 import TopBar from "./component/topBar/TopBar";
-import Write from "./component/write/Write";
+import Register from "./page/register/Register";
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <TopBar />
-      <Write />
+      <Register />
     </div>
   );
 }
